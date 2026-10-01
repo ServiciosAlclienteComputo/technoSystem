@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://arisanti2200-prog.github.io/sitemap.xml

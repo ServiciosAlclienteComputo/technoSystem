@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Seguridad (igual que index.html): GitHub Pages no permite cabeceras HTTP -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://script.google.com https://script.googleusercontent.com http://localhost:* http://127.0.0.1:*; style-src 'self' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://script.google.com https://script.googleusercontent.com http://localhost:* http://127.0.0.1:*; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <title>Blog y consejos | TechnoSystem</title>
+  <meta name="description" content="Guías prácticas para cuidar tu computador: cuándo hacer mantenimiento, cuándo formatear y cómo mantener Windows rápido y seguro.">
+  <meta name="theme-color" content="#05070d">
+  <meta property="og:title" content="Blog y consejos | TechnoSystem">
+  <meta property="og:description" content="Guías prácticas para cuidar tu computador y alargar su vida útil.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://arisanti2200-prog.github.io/blog/">
+
+  <link rel="icon" type="image/svg+xml" href="../assets/logo-ja.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Blog y consejos de TechnoSystem",
+    "url": "https://arisanti2200-prog.github.io/blog/",
+    "publisher": { "@type": "Organization", "name": "TechnoSystem" }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Sprite de iconos (versión reducida: solo los que usa el blog) -->
+  <svg xmlns="http://www.w3.org/2000/svg" class="svg-sprite" aria-hidden="true">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></symbol>
+    <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M12 2.5a9.5 9.5 0 0 0-8.1 14.5L2.5 21.5l4.6-1.35A9.5 9.5 0 1 0 12 2.5z"/><path d="M8.6 7.7c.2-.4.5-.4.8-.4h.7c.2 0 .5 0 .7.5l.8 1.9c.1.3 0 .5-.2.7l-.6.6c-.2.2-.2.4-.1.6.5 1 1.4 1.9 2.4 2.4.2.1.4.1.6-.1l.6-.6c.2-.2.4-.3.7-.2l1.9.8c.4.2.5.4.5.7v.7c0 .3 0 .6-.4.8-.5.3-1.1.4-1.7.3-1.5-.3-3.6-1.4-5.2-3s-2.7-3.7-3-5.2c-.1-.6 0-1.2.3-1.7z"/></symbol>
+  </svg>
+
+  <!-- Barra superior (sin menú móvil: solo vuelta al sitio) -->
+  <header class="blogbar">
+    <div class="container blogbar-inner">
+      <a class="brand" href="../index.html">
+        <img class="brand-logo" src="../assets/logo-ja.svg" alt="JA - Juan &amp; Aris">
+        <span>TechnoSystem · Consejos</span>
+      </a>
+      <a class="btn btn-sm btn-ghost" href="../index.html">Volver al sitio</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Blog y consejos</span>
+          <h2>Guías para cuidar <span class="gradient-text">tu computador</span></h2>
+          <p>
+            Artículos cortos y prácticos, escritos por el equipo de
+            TechnoSystem, para que entiendas lo que pasa con tu equipo y
+            tomes mejores decisiones.
+          </p>
+        </div>
+
+        <div class="blog-grid">
+          <a class="blog-card" href="senales-mantenimiento.html">
+            <div class="blog-meta">
+              <span class="blog-tag">Mantenimiento</span>
+              <span>Octubre de 2026</span>
+              <span>4 min de lectura</span>
+            </div>
+            <h3>5 señales de que tu computador necesita mantenimiento</h3>
+            <p>
+              Tu equipo avisa antes de fallar: ruidos, lentitud, calentamiento
+              y errores son los mensajes más claros. Estas son las cinco
+              señales y qué hacer con cada una.
+            </p>
+            <span class="blog-more">
+              Leer artículo
+              <svg class="icon"><use href="#i-arrow"/></svg>
+            </span>
+          </a>
+
+          <a class="blog-card" href="formatear-o-optimizar.html">
+            <div class="blog-meta">
+              <span class="blog-tag">Windows</span>
+              <span>Octubre de 2026</span>
+              <span>4 min de lectura</span>
+            </div>
+            <h3>¿Formatear o solo optimizar? Cuándo conviene cada uno</h3>
+            <p>
+              Formatear no siempre es la solución, pero a veces es lo único
+              que funciona. Te explicamos cómo decidir sin perder tiempo ni
+              información.
+            </p>
+            <span class="blog-more">
+              Leer artículo
+              <svg class="icon"><use href="#i-arrow"/></svg>
+            </span>
+          </a>
+        </div>
+
+        <div class="articulo-cta">
+          <h3>¿Tu equipo presenta alguna de estas señales?</h3>
+          <p>
+            El diagnóstico es sin costo: lo revisamos, te decimos qué tiene
+            y tú decides si autorizamos el trabajo.
+          </p>
+          <a class="btn btn-primary" href="../index.html#contacto">Solicitar diagnóstico</a>
+          <a class="btn btn-whatsapp" href="https://wa.me/573122698232?text=Hola%2C%20quiero%20un%20diagn%C3%B3stico%20para%20mi%20computador" target="_blank" rel="noopener">
+            <svg class="icon"><use href="#i-whatsapp"/></svg>
+            Escribir por WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="blogfoot">
+    <div class="container blogfoot-inner">
+      <span>© 2026 TechnoSystem · Mantenimiento y soporte de computadores</span>
+      <nav aria-label="Enlaces del blog">
+        <a href="../index.html">Inicio</a>
+        <a href="../index.html#servicios">Servicios</a>
+        <a href="../index.html#precios">Precios</a>
+        <a href="../index.html#contacto">Contacto</a>
+        <a href="../politicas.html">Políticas</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
